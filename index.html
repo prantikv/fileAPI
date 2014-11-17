@@ -17,6 +17,7 @@
     }
 
     function gotFS(fileSystem) {
+        console.log();
         fileSystem.root.getFile("readme.txt", {create: true, exclusive: false}, gotFileEntry, fail);
     }
 
