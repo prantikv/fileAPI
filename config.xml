@@ -17,8 +17,6 @@
     </author>
       <gap:platform name="android" />
     <preference name="phonegap-version" value="3.6.3" /> 
-
-
     <plugin name="File" value="org.apache.cordova.FileUtils" />
     <plugin name="FileTransfer" value="org.apache.cordova.FileTransfer" />
 
